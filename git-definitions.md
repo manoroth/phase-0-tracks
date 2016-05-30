@@ -21,3 +21,5 @@
 *Git will tell give you if their is a conflict and you will need to find a solution to succesfully implement the merging.
 
 **RELEASE 2:TAG YOUR TEACHER**
+
+Andrew: omgmakeme
