@@ -29,6 +29,7 @@ main {
   display: inline-block;
   vertical-align: text-top;
   width: 75%;
+  border: solid 20px green;
 }
 /* you're welcome to edit the
 image, figure, and figcaption CSS if you'd like, 
@@ -45,4 +46,34 @@ figure {
 figcaption {
   font-style: italic;
   text-align: right;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: hotpink;
+  }
+}
+
+@media screen and (max-width: 440px) {
+   #responsive-heading {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #external-links {
+    width: 100%;
+    min-width: 10px;
+  }
+
+  main {
+    width: 100%;
+  }
+}
+
+html {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  border: 10px solid hotpink;
 }
