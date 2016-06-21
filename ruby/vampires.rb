@@ -1,3 +1,5 @@
+#4.4 solo challenge
+
 puts "how many employess will be processed today?"
 number = gets.chomp.to_i 
 
