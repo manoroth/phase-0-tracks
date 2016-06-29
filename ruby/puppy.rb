@@ -1,18 +1,14 @@
-#CLASS
+#PUPPY--------------------
+#French Bull Dog 
 
-PUPPY--------------------
-French Bull Dog 
+#CHARACTERISTICS ---------
+#Fur Color: varies
+#Eye Color: varies
+#Friendly: yes
+#Size: compact
+#Drooling: minimal
 
-CHARACTERISTICS ---------
-Fur Color: varies
-Eye Color: varies
-Friendly: yes
-Size: compact
-Drooling: minimal
-
-
-
-BEHAVIOR ----------------
-Playful
-Energetic
-Intense
+#BEHAVIOR ----------------
+#Playful
+#Energetic
+#Intense
