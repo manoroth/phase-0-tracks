@@ -53,15 +53,21 @@ function lookup_uber_drivers() {
 lookup_uber_drivers();
 
 //Release 2: Pseudocode 
-
-
 //create a function 
 	//create empty array
 	//do something:
 		//builds array with words from integer 
 //Add driver code that generates an array, prints the array, feeds the array to your "longest" function and prints the result.
 
+function word_strings(integer) {
 
+	var random_word_arr = [];
+	var random_length = ""
+	for (var i = 0; i < random.length; i++) {
+
+		var random_num = //rand(25)
+	}
+}
 
 
 
