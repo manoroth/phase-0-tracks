@@ -24,5 +24,20 @@ Until we reach to the 5th Floor (last button).
 	* this time buttons are 4th Floor and 5th Floor.
 
 
+RELEASE 1: FIND A REAL-LIFE ALGORITHM
 
+NAME OF TASK: Putting my eye contact lens on
+
+- Open my eye contact lens case.
+- Start to rinse my left eye contacts on palm of my hand with solution for 5 seconds.
+	-it is ready to be put on.
+
+-Repeat with right eye contact lens.
+
+-If there is discomfort in either eyes:
+	- check if it is inside out 
+	- put more solution
+	- reinsert contact lens.
+-Otherwise: 
+		- Discard it and put on new eye contact lens.
 
