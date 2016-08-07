@@ -1,39 +1,45 @@
-puts "What is your name?"
-name = gets.chomp
+puts "How many employees will be processed?"
+user_input = gets.chomp.to_i 
 
-puts "How old are you?"
-age = gets.chomp.to_i
+user_input.times do |number|   
 
-puts "What year were you born?"
-birth_year = gets.chomp.to_i
+	puts "What is your name?"
+	name = gets.chomp
 
-age_correct = 2016 - age == birth_year 
+	puts "How old are you?"
+	age = gets.chomp.to_i
 
-puts "Our company cafeteria serves garlic bread. Should we order some for you?"
-garlic_bread = gets.chomp
-likes_garlic_bread = garlic_bread == 'yes'
+	puts "What year were you born?"
+	birth_year = gets.chomp.to_i
 
-puts "Would you like to enroll in the company's health insurance?"
-insurance = gets.chomp
-wants_insurance = insurance == 'yes'
-
-    result = 'Results inconclusive.'
+	age_correct = 2016 - age == birth_year 
 	
-	
-	if age_correct && (likes_garlic_bread || wants_insurance)
-		result = "Probably not a vampire."
-	end 
+	puts "Our company cafeteria serves garlic bread. Should we order some for you?"
+	garlic_bread = gets.chomp
+	likes_garlic_bread = garlic_bread == 'yes'
 
-	if !age_correct && (!likes_garlic_bread || !wants_insurance)
-		result = "Probably a vampire"
-	end 
+	puts "Would you like to enroll in the company's health insurance?"
+	insurance = gets.chomp
+	wants_insurance = insurance == 'yes'
 
-	if !age_correct && !likes_garlic_bread && !wants_insurance
-		result = "Almost certainly a vamprie"
-	end 
+	    result = 'Results inconclusive.'
+		
+		
+		if age_correct && (likes_garlic_bread || wants_insurance)
+			result = "Probably not a vampire."
+		end 
 
-	if name == ("Drake Cula" || "Tu Fang")
-		result = "Definitely a vampire."
-	end
- 
- result
+		if !age_correct && (!likes_garlic_bread || !wants_insurance)
+			result = "Probably a vampire"
+		end 
+
+		if !age_correct && !likes_garlic_bread && !wants_insurance
+			result = "Almost certainly a vamprie"
+		end 
+
+		if name == ("Drake Cula" || "Tu Fang")
+			result = "Definitely a vampire."
+		end
+	 
+	 result
+end 
