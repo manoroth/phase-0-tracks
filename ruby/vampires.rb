@@ -41,5 +41,20 @@ user_input.times do |number|
 			result = "Definitely a vampire."
 		end
 	 
-	 result
+	loop do 
+
+	puts "Do you have any allergies? Type 'done' to exit."
+	allergies = gets.chomp
+
+		case allergies
+			when "sunshine" 
+				result = "Probably a vampire."
+			break
+			when "done"
+			break
+			
+		end 
+	end 
+	 puts result
 end 
+
