@@ -8,7 +8,7 @@ RELEASE: 0 EQUIP YOUR NEW ROBOT
 *My Robot will need to know there are two columns on the elevator panel.
 *The left column has 5 buttons and right column has 4 buttons.
 *The left bottom button is the Emergency button.
-*The button above the Emergency button is the Open Door Button and next to it is the Close Door Button (first second column button.
+*The button above the Emergency button is the Open Door Button and next to it is the Close Door Button (first second column button)
 
 
 
